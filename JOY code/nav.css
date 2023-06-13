@@ -1,0 +1,81 @@
+header {
+    height: 15.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    top: 0px;
+    background: rgba(159, 165, 3, 0.01);
+    backdrop-filter: blur(21.5px);
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    margin: 0 0 15px 0;
+}
+
+.logonav {
+    width: 56.5%;
+    grid-column: 2 / 3;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+/* BURGER */
+
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: fixed;
+    z-index: inherit;
+    grid-column: 1 / 2;
+    align-self: flex-end;
+    margin: 0 0 44px 28px;
+}
+
+.beurre-gueur {
+    width: 37px;
+    color: #181B27;
+    border: 2px solid;
+    border-radius: 100px;
+}
+
+.burger:active {
+    color: #F4879A;
+    rotate: 90deg;
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        height: 10.50vh;
+        padding: 0 0 8px 0;
+        width: 100vw;
+        position: fixed;
+        top: 0px;
+    }
+
+    .logonav {
+        width: 100%;
+    }
+
+    nav {
+        margin: 0;
+        grid-template-columns: 30% 40% 30%;
+    }
+
+    .burger {
+        margin: 0 0 17px 16px;
+        gap: 8px;
+    }
+
+    .beurre-gueur {
+        width: 30px;
+
+    }
+}

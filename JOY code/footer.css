@@ -1,0 +1,71 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.euh {
+    width: 73px;
+    margin: 0 0 15px 0;
+}
+
+.louche {
+    width: 42px;
+    background-blend-mode: screen;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #181B27;
+    padding: 16px;
+    color: #FFF4CE;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 165px 0 0 0;
+    height: fit-content;
+}
+
+.liens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+footer div a {
+    color: #FFF4CE;
+    font-weight: 300;
+}
+
+.lienpied {
+    color: #FFF4CE;
+}
+
+footer div a:hover {
+    color: #9FA503;
+}
+
+footer .sait-pas-rat-teure {
+    height: 1px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #FFF4CE 100%, #FFF4CE 0%);
+    width: 100%;
+    border: 1px solid;
+
+    border-image-source: linear-gradient(90deg, #FFF4CE 0%, rgba(255, 244, 206, 0) 0%);
+
+
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.liens p {
+    color: #FFF4CE;
+}
+

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: titillium-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    background-color: #FFF4CE;
+}
+
+
+
+/* MAIN */
+
+
+
+.beaudit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* HORAIRES */
+
+.horaires {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 143.02%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* LOGO */
+
+section .logo {
+    height: 278.09px;
+}
+
+/* MAIL & TEL */
+
+.petit-titre {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: inline;
+    gap: 16px;
+    align-items: center;
+}
+
+.contakthé {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bloc-mel {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.bloc-tel {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.keenU {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 7px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: flex-start;
+}
+
+.keenV {
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+}
+
+.raie-zeaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 37px;
+}
+
+.grandkeenV {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 234px;
+}
+
+.autoyaourt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 109px;
+    margin: 180px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 143.02%;
+}
+
+section a {
+    text-decoration: none;
+    color: #181B27;
+}
+
+a:hover {
+    font-weight: 600;
+    color: rgba(244, 135, 154, 1);
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .autoyaourt {
+        width: 100vw;
+    }
+
+    .horaires {
+        padding: 0 45px 0 45px;
+    }
+
+    .grandkeenV {
+        flex-direction: column;
+        align-items: center;
+        gap: 109px;
+    }
+}

@@ -1,0 +1,382 @@
+* {
+    font-family: titillium-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFF4CE;
+}
+
+
+.entete {
+    position: sticky;
+    top: -61px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #9FA503;
+    padding: 0 0 15px 0;
+    z-index: 1;
+    width: 100%;
+
+}
+
+h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h5 a {
+    text-decoration: none;
+    color: #181B27;
+    font-weight: 600;
+    font-size: 26px;
+    font-style: normal;
+}
+
+/* BLOC 1*/
+
+.yaourtblocs {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.bloc1 {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    margin: 0 0 165px 0;
+    color: #181B27;
+
+}
+
+.AH {
+    width: 806px;
+
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0 0 54px 0;
+}
+
+.pbloc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 143.02%;
+}
+
+/* BLOC 2 */
+
+.bloc2 {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 165px 0;
+    justify-content: flex-end;
+    color: #181B27;
+
+}
+
+.wtf {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.àgauche {
+    width: 806px;
+}
+
+/*CARTES PARTENAIRES*/
+
+.ttrptn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 65px;
+    margin: 131px 0 0 0;
+}
+
+/* CARTE 1*/
+
+.carte1 {
+    background-color: #181B27;
+    color: #FFF4CE;
+    width: 808px;
+    height: 258px;
+    display: flex;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 64px;
+    padding-left: 64px;
+    justify-content: space-between;
+}
+
+.trucmuche {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    padding: 0 100px 0 0;
+}
+
+.titrepartenaire1 {
+    font-size: 26px;
+    font-weight: 600p;
+}
+
+.imgcarte1 {
+
+    height: 258px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-size: contain;
+}
+
+/*CARTE 2*/
+
+.carte2 {
+    background-color: #181B27;
+    color: #FFF4CE;
+    width: 808px;
+    height: 258px;
+    display: flex;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 64px;
+    padding-left: 64px;
+    justify-content: space-between;
+}
+
+.part1 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    padding: 0 0 0 100px;
+}
+
+.titrepartenaire2 {
+    font-size: 26px;
+    font-weight: 600p;
+}
+
+.imgcarte2 {
+    height: 258px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-size: contain;
+}
+
+/*CARTE 3*/
+
+.carte3 {
+    background-color: #181B27;
+    color: #FFF4CE;
+    width: 808px;
+    height: 258px;
+    display: flex;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 64px;
+    padding-left: 64px;
+    justify-content: space-between;
+}
+
+.part1-3 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    padding: 0 100px 0 0;
+}
+
+.titrepartenaire3 {
+    font-size: 26px;
+    font-weight: 600p;
+}
+
+.imgcarte3 {
+
+    height: 258px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-size: contain;
+}
+
+
+/*CARTE4*/
+
+.carte4 {
+    background-color: #181B27;
+    color: #FFF4CE;
+    width: 808px;
+    height: 258px;
+    display: flex;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 64px;
+    padding-left: 64px;
+    justify-content: space-between;
+}
+
+.part1-4 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    padding: 0 0 0 100px;
+}
+
+.titrepartenaire4 {
+    font-size: 26px;
+    font-weight: 600p;
+}
+
+.imgcarte4 {
+
+    height: 258px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-size: contain;
+}
+
+.acarte {
+    color: #FFF4CE;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 143.02%;
+}
+
+.acarte:hover {
+    color: rgba(244, 135, 154, 1);
+
+}
+
+/* FOOTER */
+
+
+@media screen and (max-width: 700px) {
+
+
+
+    h5 a {
+        width: 90%;
+        font-size: 22px;
+        justify-self: center;
+    }
+
+    .yaourtbloc {
+        width: 100vw;
+    }
+
+    .AH {
+        width: 85%;
+    }
+
+    .àgauche {
+        width: 85%;
+    }
+
+    h6 {
+        font-size: 21px;
+        ;
+    }
+
+    .pbloc {
+        font-size: 20px;
+
+    }
+
+
+    /* CARTES */
+
+    section {
+        gap: 25px;
+    }
+
+    .carte1,
+    .carte3,
+    .carte2,
+    .carte4 {
+        width: 100vw;
+        padding: 0px;
+    }
+
+    .imgcarte1,
+    .imgcarte3,
+    .imgcarte2,
+    .imgcarte4 {
+        width: 155px;
+        height: 155px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .pcarte1,
+    .pcarte3,
+    .pcarte2,
+    .pcarte4 {
+        font-size: 16px;
+
+    }
+
+    .titrepartenaire1,
+    .titrepartenaire2,
+    .titrepartenaire3,
+    .titrepartenaire4 {
+        font-size: 20px;
+    }
+
+    .trucmuche,
+    .part1-3 {
+        padding: 0 10px 0 9px;
+    }
+
+    .acarte {
+        color: rgba(244, 135, 154, 1);
+        font-size: 16px;
+    }
+
+    .part1,
+    .part1-4 {
+        padding: 0 9px 0 10px;
+    }
+}
