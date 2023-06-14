@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: titillium-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(24, 27, 39, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BURGER*/
+
+.help {
+    position: absolute;
+    z-index: 20;
+    height: 85%;
+    top: 15%;
+    background: linear-gradient(180deg, rgba(24, 27, 39, 0) -30.92%, #181B27 20.9%);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding: 180px 0 0 54px;
+    transition: 1s;
+    transform: translateX(-100%);
+}
+
+.help a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 143.02%;
+    color: #FFF4CE;
+}
+
+.help a:hover {
+    color: #E5CF05;
+}
+
+.ligne {
+    width: 318px;
+    background: linear-gradient(200deg, rgba(255, 244, 206, 0) 0%, rgba(255, 244, 206, 0.642) 50%, rgba(255, 244, 206, 0.9323) 100%)no-repeat;
+    height: 0.2vh;
+}
+
+/* BUG */
+
+body {
+    background-color: #181B27;
+}
+
+header .menu {
+    height: 90%;
+    background-color: #181B27;
+    position: fixed;
+    z-index: 20;
+    width: 100vw;
+}
+
+
+.tranche-fraîches {
+    height: 218px;
+    background-color: rgba(255, 244, 206, 1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    padding: 0 0 8px 20%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+
+
+}
+
+.tranche-fraîches a {
+    text-decoration: none;
+
+}
+
+.tranche {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 46.45px;
+    background-color: rgba(255, 244, 206, 1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 0 0 20%;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.aperitif {
+    position: sticky;
+    top: 218px;
+}
+
+.chaude {
+    position: sticky;
+    top: 264.45px;
+}
+
+.entrees {
+    position: sticky;
+    top: 310.9px;
+}
+
+.plat {
+    position: sticky;
+    top: 357.35px;
+}
+
+.dessert {
+    position: sticky;
+    top: 402.8px;
+}
+
+.p-tranches {
+
+    width: 60%;
+
+}
+
+/* CARTES */
+
+.yaourt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75%;
+    gap: 23px;
+
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px 14px 15px;
+}
+
+.miam {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 143.02%;
+}
+
+.miam-miam {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 143.02%;
+}
+
+.prix {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 143.02%;
+    color: rgba(244, 135, 154, 1);
+}
+
+.carte {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.tranche p:hover {
+    color: #E5CF05;
+}
+
+.tranche-fraîches a:hover {
+    color: #E5CF05;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E5CF05;
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 700px) {
+
+    .logonav {
+        width: 100%;
+    }
+
+
+    .carte {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .texte {
+        width: 100%;
+        font-size: 16px;
+
+    }
+
+    .description {
+        width: 100%;
+        margin: 0 15px 0 15px;
+    }
+
+    .yaourt {
+        width: 100%;
+    }
+
+    .carte img {
+        width: 100%;
+    }
+
+    .tranche,
+    .tranche-fraîches {
+        font-size: 22px;
+        padding: 0 0 0 20px;
+    }
+
+    .p-tranches {
+        margin: 0 0 9px 0;
+    }
+
+    .miam {
+        font-size: 20px;
+    }
+
+    .miam-miam,
+    .prix {
+        font-size: 16px;
+        margin: 0 15px 0 0;
+    }
+
+}
